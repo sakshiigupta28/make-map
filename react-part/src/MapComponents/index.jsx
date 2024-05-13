@@ -1,4 +1,3 @@
-"use client"
 
 import React, { useEffect, useState } from 'react';
 import 'ol/ol.css';
@@ -11,7 +10,7 @@ import { Circle as CircleStyle, Fill, Stroke, Style } from 'ol/style';
 import Overlay from 'ol/Overlay';
 import { Polygon, LineString, Point } from 'ol/geom';
 import { click } from 'ol/events/condition';
-import '../../app/globals.css'
+import './style.css'
 
 const MapComponent = () => {
     const [map, setMap] = useState(null);

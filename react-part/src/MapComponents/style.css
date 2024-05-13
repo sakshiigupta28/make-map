@@ -1,0 +1,29 @@
+.btn_dlt{
+    background-color: rgb(245, 106, 106);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn_dlt:hover{
+    background-color: rgb(198, 47, 47);
+  
+  }
+  
+  .btn_div{
+    display: flex;
+    gap: 1.5rem;
+  justify-content: center;
+    margin: 1rem;
+  }
+  .btn{
+    background-color: rgb(145, 221, 243);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn:hover{
+    background-color: rgb(68, 203, 240);
+  
+  }
